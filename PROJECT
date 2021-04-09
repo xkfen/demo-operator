@@ -1,0 +1,7 @@
+domain: my.domain
+repo: github.com/xkfen/demo-operator
+resources:
+- group: etcd
+  kind: EtcdCluster
+  version: v1alpha1
+version: "2"
